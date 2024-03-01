@@ -5,11 +5,11 @@ const modal = () => {
   const input = document.getElementById('search-input');
 
   modalBtn.addEventListener('click', () => {
-    modal.style.display = 'block';
+    modal.classList.add('active');
   });
 
   modalClose.addEventListener('click', () => {
-    modal.style.display = 'none';
+    modal.classList.remove('active');
   });
 
   input.addEventListener('change', () => {
