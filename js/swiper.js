@@ -9,7 +9,7 @@ const slider = () => {
         prevEl: '.swiper-button-prev',
       },
 
-      effect: 'fade',
+      effect: 'cube',
       speed: 1000,
     });
 }
